@@ -26,6 +26,7 @@ A collection of Gang of Four (GoF) design patterns implemented in C# (.NET 10). 
 | Proxy | `src/proxy-design-pattern/` | Stands in for an object with the same interface — routes a call to one of several subjects, or guards access to a protected one |
 | Singleton | `src/singleton-design-pattern/` | Ensures a class has exactly one instance with a global point of access |
 | State | `src/state-design-pattern/` | Changes an object's behaviour when its lifecycle state changes, with one class per state |
+| Strategy | `src/strategy-design-pattern/` | Puts interchangeable algorithms behind one interface so the caller can swap them at runtime |
 
 ## Structure
 
@@ -50,7 +51,8 @@ src/
 ├── prototype-design-pattern/   — Prototype pattern demo (deep copy)
 ├── proxy-design-pattern/       — Proxy pattern demo (Routing + Protection)
 ├── singleton-design-pattern/   — Singleton pattern demo
-└── state-design-pattern/       — State pattern demo (exam lifecycle)
+├── state-design-pattern/       — State pattern demo (exam lifecycle)
+└── strategy-design-pattern/    — Strategy pattern demo (file archive job)
 ```
 
 ## Running
@@ -114,6 +116,9 @@ cd src/singleton-design-pattern
 dotnet run
 
 cd src/state-design-pattern
+dotnet run
+
+cd src/strategy-design-pattern
 dotnet run
 ```
 
