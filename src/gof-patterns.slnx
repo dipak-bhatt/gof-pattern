@@ -18,4 +18,5 @@
     <Project Path="proxy-design-pattern/proxy-design-pattern.csproj" />
     <Project Path="singleton-design-pattern/singleton-design-pattern.csproj" />
     <Project Path="factory-design-pattern/factory-design-pattern.csproj" />
+    <Project Path="state-design-pattern/state-design-pattern.csproj" />
 </Solution>
