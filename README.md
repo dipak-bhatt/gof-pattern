@@ -28,6 +28,7 @@ A collection of Gang of Four (GoF) design patterns implemented in C# (.NET 10). 
 | State | `src/state-design-pattern/` | Changes an object's behaviour when its lifecycle state changes, with one class per state |
 | Strategy | `src/strategy-design-pattern/` | Puts interchangeable algorithms behind one interface so the caller can swap them at runtime |
 | Template Method | `src/template-method-design-pattern/` | Fixes the steps of an algorithm in a base class and lets subclasses supply individual steps |
+| Visitor | `src/visitor-design-pattern/` | Adds new operations over a stable object structure without changing its element classes |
 
 ## Structure
 
@@ -54,7 +55,8 @@ src/
 ├── singleton-design-pattern/   — Singleton pattern demo
 ├── state-design-pattern/       — State pattern demo (exam lifecycle)
 ├── strategy-design-pattern/    — Strategy pattern demo (file archive job)
-└── template-method-design-pattern/ — Template Method pattern demo (catalog bulk import)
+├── template-method-design-pattern/ — Template Method pattern demo (catalog bulk import)
+└── visitor-design-pattern/     — Visitor pattern demo (SQL routine analyzer)
 ```
 
 ## Running
@@ -124,6 +126,9 @@ cd src/strategy-design-pattern
 dotnet run
 
 cd src/template-method-design-pattern
+dotnet run
+
+cd src/visitor-design-pattern
 dotnet run
 ```
 
