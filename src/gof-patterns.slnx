@@ -20,4 +20,5 @@
     <Project Path="factory-design-pattern/factory-design-pattern.csproj" />
     <Project Path="state-design-pattern/state-design-pattern.csproj" />
     <Project Path="strategy-design-pattern/strategy-design-pattern.csproj" />
+    <Project Path="template-method-design-pattern/template-method-design-pattern.csproj" />
 </Solution>
